@@ -27,7 +27,8 @@ if __name__ == '__main__':
     button_go.bind("<Button-1>", lambda e: BT.run_app(e))
     button_go.pack()
 
-    bottom_label = tk.Label(text="This app is inspired by Matthew BrotherInLaw", width=50, height=4)
+    bottom_label = tk.Label(text="This app is inspired by Matthew BrotherInLaw",
+                            width=50, height=4)
     bottom_label.config(font=("Garamond", 8))
     bottom_label.pack()
 
